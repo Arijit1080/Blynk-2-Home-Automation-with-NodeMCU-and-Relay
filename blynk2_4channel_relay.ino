@@ -36,8 +36,6 @@ void setup()
   digitalWrite(pin2, HIGH);
   digitalWrite(pin3, HIGH);
 
-  timeClient.begin();
- 
   BlynkEdgent.begin();
 }
 
